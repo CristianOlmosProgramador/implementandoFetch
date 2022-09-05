@@ -167,10 +167,10 @@ const consultaRegistro = ()=>{
     }).then((result) => {
         if (result.isConfirmed) {
         Swal.fire(
-            // window.open('ingresoCalificaciones.html','_self')
+             window.open('ingresoCalificaciones.html','_self')
         )
         }else{
-        //    desactivarNotas();
+            limpiar();
         }
        
     })
